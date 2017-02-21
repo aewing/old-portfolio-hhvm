@@ -1,0 +1,537 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ac58e63ff8bc47f6ba1ead32d7ed034c",
+    "packages": [
+        {
+            "name": "decouple/cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/cli.git",
+                "reference": "f803608f551b7d507a4ba684377305b578156cde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/cli/zipball/f803608f551b7d507a4ba684377305b578156cde",
+                "reference": "f803608f551b7d507a4ba684377305b578156cde",
+                "shasum": ""
+            },
+            "require": {
+                "decouple/common": "dev-master",
+                "decouple/decoupler": "dev-master",
+                "decouple/registry": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\CLI\\Command\\": "Command/",
+                    "Decouple\\CLI\\Request\\": "Request/",
+                    "Decouple\\CLI\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack command line application container created for Decouple Framework.",
+            "time": "2016-08-07 15:40:28"
+        },
+        {
+            "name": "decouple/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/common.git",
+                "reference": "b1798868ab03ff349dccfd3fef09331ec0a1f4d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/common/zipball/b1798868ab03ff349dccfd3fef09331ec0a1f4d3",
+                "reference": "b1798868ab03ff349dccfd3fef09331ec0a1f4d3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\Common\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Common requirements and contracts for the Decouple Framework.",
+            "time": "2015-06-11 09:08:35"
+        },
+        {
+            "name": "decouple/dbal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/dbal.git",
+                "reference": "ea94dcb215d9693ab81d3be5394ff7448e254380"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/dbal/zipball/ea94dcb215d9693ab81d3be5394ff7448e254380",
+                "reference": "ea94dcb215d9693ab81d3be5394ff7448e254380",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\DBAL\\Connector\\": "Connector/",
+                    "Decouple\\DBAL\\Contract\\": "Contract/",
+                    "Decouple\\DBAL\\DPDO\\": "DPDO/",
+                    "Decouple\\DBAL\\Driver\\": "Driver/",
+                    "Decouple\\DBAL\\Query\\": "Query/",
+                    "Decouple\\DBAL\\Schema\\": "Schema/",
+                    "Decouple\\DBAL\\Statement\\": "Statement/",
+                    "Decouple\\DBAL\\Table\\": "Table/",
+                    "Decouple\\DBAL\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack DBAL written for Decouple Framework.",
+            "time": "2016-08-07 16:08:22"
+        },
+        {
+            "name": "decouple/dbal-cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/dbal-cli.git",
+                "reference": "9c8775a8f1dbd2d906080b167607b2bd6b75f898"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/dbal-cli/zipball/9c8775a8f1dbd2d906080b167607b2bd6b75f898",
+                "reference": "9c8775a8f1dbd2d906080b167607b2bd6b75f898",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\DBAL_CLI\\Command\\": "Command/",
+                    "Decouple\\DBAL_CLI\\Contract\\": "Contract/",
+                    "Decouple\\DBAL_CLI\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Command line interface for Decouple Framework DBAL",
+            "time": "2015-09-25 00:00:52"
+        },
+        {
+            "name": "decouple/decoupler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/decoupler.git",
+                "reference": "c2f4739cb8f9040d4a47e13768e346d5272009b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/decoupler/zipball/c2f4739cb8f9040d4a47e13768e346d5272009b0",
+                "reference": "c2f4739cb8f9040d4a47e13768e346d5272009b0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\Decoupler\\Reflection\\": "Reflection/",
+                    "Decouple\\Decoupler\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack dependency injector based on reflection created for the Decouple framework",
+            "time": "2016-08-24 07:11:06"
+        },
+        {
+            "name": "decouple/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/http.git",
+                "reference": "4c36d18d964fed4a5c7bcab5074e00904bd90707"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/http/zipball/4c36d18d964fed4a5c7bcab5074e00904bd90707",
+                "reference": "4c36d18d964fed4a5c7bcab5074e00904bd90707",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\HTTP\\Router\\": "Router/",
+                    "Decouple\\HTTP\\Request\\": "Request/",
+                    "Decouple\\HTTP\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "HTTP Application Container for the Decouple Framework",
+            "time": "2016-08-24 07:08:24"
+        },
+        {
+            "name": "decouple/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/log.git",
+                "reference": "5dcde9aceb3c0935c38a0bdf73c3e03e0f144f74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/log/zipball/5dcde9aceb3c0935c38a0bdf73c3e03e0f144f74",
+                "reference": "5dcde9aceb3c0935c38a0bdf73c3e03e0f144f74",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack file logging utility created for Decouple Framework",
+            "time": "2015-06-10 06:51:51"
+        },
+        {
+            "name": "decouple/orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/orm.git",
+                "reference": "f05bd98a362a1c82cbc892dd46bdb0c002a85482"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/orm/zipball/f05bd98a362a1c82cbc892dd46bdb0c002a85482",
+                "reference": "f05bd98a362a1c82cbc892dd46bdb0c002a85482",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\ORM\\Model\\": "Model/",
+                    "Decouple\\ORM\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack ORM created for the Decouple framework",
+            "time": "2015-06-10 06:52:40"
+        },
+        {
+            "name": "decouple/registry",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/registry.git",
+                "reference": "33d93c85d75ce9bd41050886b8f5a2c03417f774"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/registry/zipball/33d93c85d75ce9bd41050886b8f5a2c03417f774",
+                "reference": "33d93c85d75ce9bd41050886b8f5a2c03417f774",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\Registry\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack registry container created for Decouple framework, used to store data to be used by the injector.",
+            "time": "2015-09-08 06:17:19"
+        },
+        {
+            "name": "decouple/test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/test.git",
+                "reference": "045877b8961c1d828dcabc9b1c0517e68aa53a39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/test/zipball/045877b8961c1d828dcabc9b1c0517e68aa53a39",
+                "reference": "045877b8961c1d828dcabc9b1c0517e68aa53a39",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decouple\\Test\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack unit testing utility created for Decouple framework",
+            "time": "2016-08-24 07:11:49"
+        },
+        {
+            "name": "decouple/ui",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/decouple/ui.git",
+                "reference": "d1eee6665f2b858036a9ef5f63609ba531ae9fde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/decouple/ui/zipball/d1eee6665f2b858036a9ef5f63609ba531ae9fde",
+                "reference": "d1eee6665f2b858036a9ef5f63609ba531ae9fde",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Ewing",
+                    "email": "drew@phenocode.com"
+                }
+            ],
+            "description": "Hack UI toolkit for Decouple framework",
+            "time": "2015-07-11 18:45:15"
+        },
+        {
+            "name": "facebook/xhp-lib",
+            "version": "v2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/xhp-lib.git",
+                "reference": "4d2e2640534f50debe04f6a398db064fa6b1bb72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/4d2e2640534f50debe04f6a398db064fa6b1bb72",
+                "reference": "4d2e2640534f50debe04f6a398db064fa6b1bb72",
+                "shasum": ""
+            },
+            "require": {
+                "fredemmott/type-assert": "^0.2.0 || ^1.0",
+                "hhvm": "~3.12"
+            },
+            "require-dev": {
+                "91carriage/phpunit-hhi": "^5.1.0",
+                "phpunit/phpunit": "^5.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Class library for XHP",
+            "homepage": "https://github.com/facebook/xhp-lib",
+            "keywords": [
+                "facebook",
+                "hack",
+                "hhvm",
+                "xhp"
+            ],
+            "time": "2016-12-04T21:31:50+00:00"
+        },
+        {
+            "name": "fredemmott/type-assert",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fredemmott/type-assert.git",
+                "reference": "38460b438ca85701585abe471d944c678d242847"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fredemmott/type-assert/zipball/38460b438ca85701585abe471d944c678d242847",
+                "reference": "38460b438ca85701585abe471d944c678d242847",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "~3.12"
+            },
+            "require-dev": {
+                "91carriage/phpunit-hhi": "~5.1",
+                "phpunit/phpunit": "~5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "Convert untyped data to typed data",
+            "keywords": [
+                "TypeAssert",
+                "hack"
+            ],
+            "time": "2017-02-15T02:26:23+00:00"
+        },
+        {
+            "name": "hhvm/xhp-js",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/xhp-js.git",
+                "reference": "255d9a2e3aadcff1c9a7f78968de5cb96bfa9432"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/xhp-js/zipball/255d9a2e3aadcff1c9a7f78968de5cb96bfa9432",
+                "reference": "255d9a2e3aadcff1c9a7f78968de5cb96bfa9432",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/xhp-lib": "^2.3.0",
+                "hhvm": "~3.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Easily create JS controllers for XHP elements, and XHP wrappers for React elements",
+            "homepage": "https://github.com/hhvm/xhp-js",
+            "keywords": [
+                "JS",
+                "facebook",
+                "hack",
+                "hhvm",
+                "javascript",
+                "react",
+                "xhp"
+            ],
+            "time": "2017-02-18T02:37:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "decouple/common": 20,
+        "decouple/decoupler": 20,
+        "decouple/cli": 20,
+        "decouple/registry": 20,
+        "decouple/orm": 20,
+        "decouple/test": 20,
+        "decouple/dbal": 20,
+        "decouple/dbal-cli": 20,
+        "decouple/http": 20,
+        "decouple/log": 20,
+        "decouple/ui": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
