@@ -47,15 +47,15 @@ export default class HomepageController extends React.Component {
                 As a developer, I strive to learn and utilize the most valuable tools for project stakeholders, prioritizing cost of development and user-perceived performance.
               </p>
               <p>
-                My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.<br/>
-                I am comfortable with several languages and a multitude of frameworks. I thoroughly enjoy learning, so don't hesitate to contact me if this doesn't describe your stack.
+                My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.
+                I am comfortable with several languages and a multitude of frameworks, so don't hesitate to contact me if this doesn't describe your stack.
               </p>
               <h4>At Home</h4>
               <p>
                 I enjoy gaming and play and create video games as a hobby. I also enjoy grilling and smoking meat, drinking bourbon, flying drones, playing board games, and camping with my family.
               </p>
               <p>
-                I also spend a great deal of my free time tinkering with new tools, languages, and frameworks.
+                By far my favorite hobby is tinkering with new tools, languages, and frameworks.
               </p>
             </div>
           </Col>

@@ -337,9 +337,7 @@ var HomepageController = function (_React$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.',
-                _react2.default.createElement('br', null),
-                'I am comfortable with several languages and a multitude of frameworks. I thoroughly enjoy learning, so don\'t hesitate to contact me if this doesn\'t describe your stack.'
+                'My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose. I am comfortable with several languages and a multitude of frameworks, so don\'t hesitate to contact me if this doesn\'t describe your stack.'
               ),
               _react2.default.createElement(
                 'h4',
@@ -354,7 +352,7 @@ var HomepageController = function (_React$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'I also spend a great deal of my free time tinkering with new tools, languages, and frameworks.'
+                'By far my favorite hobby is tinkering with new tools, languages, and frameworks.'
               )
             )
           ),
