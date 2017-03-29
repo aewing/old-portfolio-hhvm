@@ -36,31 +36,29 @@ export default class HomepageController extends React.Component {
         </div>
         <Row className="homepage__cv">
           <h3 className="center-align">About Me</h3>
-          <div style={{backgroundColor:'#dedede',display:'table-cell',width:'100%',paddingLeft:'24px',paddingRight:'24px'}}>
-            <Col s={8} offset="s2" className="left-align" style={{backgroundColor:'#fff',boxShadow:'1px 2px 2px rgba(0, 0, 0, 0.25)'}}>
-              <div className="m-a-1">
-                <h4>About Me</h4>
-                <p>
-                  I am a self-taught software engineer living in Phoenix, AZ. I have over 12 years of professional experience managing and contributing to LEMP environments.
-                </p>
-                <h4>At Work</h4>
-                <p>
-                  As a developer, I strive to learn and utilize the most valuable tools for project stakeholders, prioritizing cost of development and user-perceived performance.
-                </p>
-                <p>
-                  My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.<br/>
-                  I am comfortable with several languages and a multitude of frameworks. I thoroughly enjoy learning, so don't hesitate to contact me if this doesn't describe your stack.
-                </p>
-                <h4>At Home</h4>
-                <p>
-                  I enjoy gaming and play and create video games as a hobby. I also enjoy grilling and smoking meat, drinking bourbon, flying drones, playing board games, and camping with my family.
-                </p>
-                <p>
-                  I also spend a great deal of my free time tinkering with new tools, languages, and frameworks.
-                </p>
-              </div>
-            </Col>
-          </div>
+          <Col s={8} offset="s2" className="left-align" style={{backgroundColor:'#fff',boxShadow:'1px 2px 2px rgba(0, 0, 0, 0.25)'}}>
+            <div className="m-a-1">
+              <h4>Background</h4>
+              <p>
+                I am a self-taught software engineer living in Phoenix, AZ. I have over 12 years of professional experience managing and contributing to LEMP environments.
+              </p>
+              <h4>At Work</h4>
+              <p>
+                As a developer, I strive to learn and utilize the most valuable tools for project stakeholders, prioritizing cost of development and user-perceived performance.
+              </p>
+              <p>
+                My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.<br/>
+                I am comfortable with several languages and a multitude of frameworks. I thoroughly enjoy learning, so don't hesitate to contact me if this doesn't describe your stack.
+              </p>
+              <h4>At Home</h4>
+              <p>
+                I enjoy gaming and play and create video games as a hobby. I also enjoy grilling and smoking meat, drinking bourbon, flying drones, playing board games, and camping with my family.
+              </p>
+              <p>
+                I also spend a great deal of my free time tinkering with new tools, languages, and frameworks.
+              </p>
+            </div>
+          </Col>
           <Col s={12} className="center-align">
             <h3>Work History</h3>
             <Row>

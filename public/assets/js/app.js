@@ -309,56 +309,52 @@ var HomepageController = function (_React$Component) {
             'About Me'
           ),
           _react2.default.createElement(
-            'div',
-            { style: { backgroundColor: '#dedede', display: 'table-cell', width: '100%', paddingLeft: '24px', paddingRight: '24px' } },
+            _reactMaterialize.Col,
+            { s: 8, offset: 's2', className: 'left-align', style: { backgroundColor: '#fff', boxShadow: '1px 2px 2px rgba(0, 0, 0, 0.25)' } },
             _react2.default.createElement(
-              _reactMaterialize.Col,
-              { s: 8, offset: 's2', className: 'left-align', style: { backgroundColor: '#fff', boxShadow: '1px 2px 2px rgba(0, 0, 0, 0.25)' } },
+              'div',
+              { className: 'm-a-1' },
               _react2.default.createElement(
-                'div',
-                { className: 'm-a-1' },
-                _react2.default.createElement(
-                  'h4',
-                  null,
-                  'About Me'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'I am a self-taught software engineer living in Phoenix, AZ. I have over 12 years of professional experience managing and contributing to LEMP environments.'
-                ),
-                _react2.default.createElement(
-                  'h4',
-                  null,
-                  'At Work'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'As a developer, I strive to learn and utilize the most valuable tools for project stakeholders, prioritizing cost of development and user-perceived performance.'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.',
-                  _react2.default.createElement('br', null),
-                  'I am comfortable with several languages and a multitude of frameworks. I thoroughly enjoy learning, so don\'t hesitate to contact me if this doesn\'t describe your stack.'
-                ),
-                _react2.default.createElement(
-                  'h4',
-                  null,
-                  'At Home'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'I enjoy gaming and play and create video games as a hobby. I also enjoy grilling and smoking meat, drinking bourbon, flying drones, playing board games, and camping with my family.'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'I also spend a great deal of my free time tinkering with new tools, languages, and frameworks.'
-                )
+                'h4',
+                null,
+                'Background'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'I am a self-taught software engineer living in Phoenix, AZ. I have over 12 years of professional experience managing and contributing to LEMP environments.'
+              ),
+              _react2.default.createElement(
+                'h4',
+                null,
+                'At Work'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'As a developer, I strive to learn and utilize the most valuable tools for project stakeholders, prioritizing cost of development and user-perceived performance.'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'My dream stack consists of Laravel, React (ES6), MySQL 5.7, Redis, Ubuntu (Docker where applicable) and ElasticSearch, if it serves a purpose.',
+                _react2.default.createElement('br', null),
+                'I am comfortable with several languages and a multitude of frameworks. I thoroughly enjoy learning, so don\'t hesitate to contact me if this doesn\'t describe your stack.'
+              ),
+              _react2.default.createElement(
+                'h4',
+                null,
+                'At Home'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'I enjoy gaming and play and create video games as a hobby. I also enjoy grilling and smoking meat, drinking bourbon, flying drones, playing board games, and camping with my family.'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'I also spend a great deal of my free time tinkering with new tools, languages, and frameworks.'
               )
             )
           ),
