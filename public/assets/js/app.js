@@ -906,7 +906,7 @@ var OpenSourceController = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'cards open-source' },
+        { className: 'open-source' },
         _react2.default.createElement(
           _reactMaterialize.Row,
           null,
@@ -944,32 +944,36 @@ var OpenSourceController = function (_React$Component) {
               'The following projects have been created and maintained by yours truly.'
             )
           ),
-          this.state.entries.map(function (entry, index) {
-            return _react2.default.createElement(
-              _reactMaterialize.Col,
-              { m: 6, s: 12, key: index },
-              _react2.default.createElement(
-                _reactMaterialize.Card,
-                {
-                  header: _react2.default.createElement(
-                    _reactMaterialize.CardTitle,
-                    { image: entry.image },
-                    entry.title
-                  ),
-                  actions: [_react2.default.createElement(
-                    _reactRouter.Link,
-                    { className: 'btn btn--full waves-effect waves-light black', to: entry.href, key: 'view' },
-                    _react2.default.createElement('i', { className: 'fa fa-github-circle' }),
-                    ' View on GitHub'
-                  )] },
+          _react2.default.createElement(
+            'div',
+            { className: 'cards' },
+            this.state.entries.map(function (entry, index) {
+              return _react2.default.createElement(
+                _reactMaterialize.Col,
+                { m: 6, s: 12, key: index },
                 _react2.default.createElement(
-                  'div',
-                  { className: 'm-b-1' },
-                  entry.description
+                  _reactMaterialize.Card,
+                  {
+                    header: _react2.default.createElement(
+                      _reactMaterialize.CardTitle,
+                      { image: entry.image },
+                      entry.title
+                    ),
+                    actions: [_react2.default.createElement(
+                      _reactRouter.Link,
+                      { className: 'btn btn--full waves-effect waves-light black', to: entry.href, key: 'view' },
+                      _react2.default.createElement('i', { className: 'fa fa-github-circle' }),
+                      ' View on GitHub'
+                    )] },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'm-b-1' },
+                    entry.description
+                  )
                 )
-              )
-            );
-          })
+              );
+            })
+          )
         )
       );
     }

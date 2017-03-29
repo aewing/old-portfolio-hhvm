@@ -33,7 +33,7 @@ export default class OpenSourceController extends React.Component {
 
   render() {
     return (
-      <div className="cards open-source">
+      <div className="open-source">
         <Row>
           <Col m={12}>
             <h1>Open Source Contributions</h1>
@@ -43,19 +43,21 @@ export default class OpenSourceController extends React.Component {
             <h2>My Projects</h2>
             <p>The following projects have been created and maintained by yours truly.</p>
           </Col>
-          {this.state.entries.map((entry,index) => {
-            return (
-              <Col m={6} s={12} key={index}>
-                <Card
-                  header={<CardTitle image={entry.image}>{entry.title}</CardTitle>}
-                  actions={[<Link className="btn btn--full waves-effect waves-light black" to={entry.href} key="view"><i className="fa fa-github-circle"></i> View on GitHub</Link>]}>
-                  <div className="m-b-1">
-                    {entry.description}
-                  </div>
-                </Card>
-              </Col>
-            );
-          })}
+          <div className="cards">
+            {this.state.entries.map((entry,index) => {
+              return (
+                <Col m={6} s={12} key={index}>
+                  <Card
+                    header={<CardTitle image={entry.image}>{entry.title}</CardTitle>}
+                    actions={[<Link className="btn btn--full waves-effect waves-light black" to={entry.href} key="view"><i className="fa fa-github-circle"></i> View on GitHub</Link>]}>
+                    <div className="m-b-1">
+                      {entry.description}
+                    </div>
+                  </Card>
+                </Col>
+              );
+            })}
+          </div>
         </Row>
       </div>
     );
