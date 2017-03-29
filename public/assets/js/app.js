@@ -912,67 +912,75 @@ var OpenSourceController = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactMaterialize.Col,
-            { m: 12 },
+            { l: 8, m: 12, offset: 'l2' },
             _react2.default.createElement(
-              'h1',
+              _reactMaterialize.Row,
               null,
-              'Open Source Contributions'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'You can find a number of my open source contributions to various projects and organizations, including Facebook, on ',
               _react2.default.createElement(
-                'a',
-                { href: 'https://github.com/aewing' },
-                'Github'
-              ),
-              '.'
-            )
-          ),
-          _react2.default.createElement(
-            _reactMaterialize.Col,
-            { m: 12 },
-            _react2.default.createElement(
-              'h2',
-              null,
-              'My Projects'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'The following projects have been created and maintained by yours truly.'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'cards' },
-            this.state.entries.map(function (entry, index) {
-              return _react2.default.createElement(
                 _reactMaterialize.Col,
-                { m: 6, s: 12, key: index },
+                { m: 12 },
                 _react2.default.createElement(
-                  _reactMaterialize.Card,
-                  {
-                    header: _react2.default.createElement(
-                      _reactMaterialize.CardTitle,
-                      { image: entry.image },
-                      entry.title
-                    ),
-                    actions: [_react2.default.createElement(
-                      _reactRouter.Link,
-                      { className: 'btn btn--full waves-effect waves-light black', to: entry.href, key: 'view' },
-                      _react2.default.createElement('i', { className: 'fa fa-github-circle' }),
-                      ' View on GitHub'
-                    )] },
+                  'h1',
+                  null,
+                  'Open Source Contributions'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'You can find a number of my open source contributions to various projects and organizations, including Facebook, on ',
                   _react2.default.createElement(
-                    'div',
-                    { className: 'm-b-1' },
-                    entry.description
-                  )
+                    'a',
+                    { href: 'https://github.com/aewing' },
+                    'Github'
+                  ),
+                  '.'
                 )
-              );
-            })
+              ),
+              _react2.default.createElement(
+                _reactMaterialize.Col,
+                { m: 12 },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  'My Projects'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'The following projects have been created and maintained by yours truly.'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'cards' },
+                this.state.entries.map(function (entry, index) {
+                  return _react2.default.createElement(
+                    _reactMaterialize.Col,
+                    { m: 6, s: 12, key: index },
+                    _react2.default.createElement(
+                      _reactMaterialize.Card,
+                      {
+                        header: _react2.default.createElement(
+                          _reactMaterialize.CardTitle,
+                          { image: entry.image },
+                          entry.title
+                        ),
+                        actions: [_react2.default.createElement(
+                          _reactRouter.Link,
+                          { className: 'btn btn--full waves-effect waves-light black', to: entry.href, key: 'view' },
+                          _react2.default.createElement('i', { className: 'fa fa-github-circle' }),
+                          ' View on GitHub'
+                        )] },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'm-b-1' },
+                        entry.description
+                      )
+                    )
+                  );
+                })
+              )
+            )
           )
         )
       );
