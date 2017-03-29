@@ -38,11 +38,12 @@ export default class OpenSourceController extends React.Component {
           <Col l={8} m={12} offset="l2">
             <Row>
               <Col m={12}>
-                <h1>Open Source Contributions</h1>
+                <h1 className="m-t-3">Open Source Contributions</h1>
                 <p>You can find a number of my open source contributions to various projects and organizations, including Facebook, on <a href="https://github.com/aewing">Github</a>.</p>
+                <hr/>
               </Col>
               <Col m={12}>
-                <h2>My Projects</h2>
+                <h2 className="m-t-2">Open Source Projects</h2>
                 <p>The following projects have been created and maintained by yours truly.</p>
               </Col>
               <div className="cards">

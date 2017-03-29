@@ -921,7 +921,7 @@ var OpenSourceController = function (_React$Component) {
                 { m: 12 },
                 _react2.default.createElement(
                   'h1',
-                  null,
+                  { className: 'm-t-3' },
                   'Open Source Contributions'
                 ),
                 _react2.default.createElement(
@@ -934,15 +934,16 @@ var OpenSourceController = function (_React$Component) {
                     'Github'
                   ),
                   '.'
-                )
+                ),
+                _react2.default.createElement('hr', null)
               ),
               _react2.default.createElement(
                 _reactMaterialize.Col,
                 { m: 12 },
                 _react2.default.createElement(
                   'h2',
-                  null,
-                  'My Projects'
+                  { className: 'm-t-2' },
+                  'Open Source Projects'
                 ),
                 _react2.default.createElement(
                   'p',
