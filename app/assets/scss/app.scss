@@ -45,6 +45,12 @@ nav a.brand-logo {
 }
 
 .testimonial {
+  blockquote {
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
   hr {
     border: 1px solid #eee;
   }
@@ -54,6 +60,7 @@ nav a.brand-logo {
 }
 
 .homepage__cv {
+  background: #eee;
   margin-bottom: 0;
   .col {
     padding: 0;

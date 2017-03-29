@@ -6732,6 +6732,11 @@ iframe#marooned {
 nav a.brand-logo {
   z-index: 1; }
 
+.testimonial blockquote {
+  background: #fff;
+  padding: 8px;
+  border-radius: 4px; }
+
 .testimonial hr {
   border: 1px solid #eee; }
 
@@ -6739,6 +6744,7 @@ nav a.brand-logo {
   padding: 8px !important; }
 
 .homepage__cv {
+  background: #eee;
   margin-bottom: 0; }
   .homepage__cv .col {
     padding: 0; }
