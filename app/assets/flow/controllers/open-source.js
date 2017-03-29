@@ -39,8 +39,6 @@ export default class OpenSourceController extends React.Component {
             <h1>Open Source Contributions</h1>
             <p>You can find a number of my open source contributions to various projects and organizations, including Facebook, on <a href="https://github.com/aewing">Github</a>.</p>
           </Col>
-        </Row>
-        <Row>
           <Col m={12}>
             <h2>My Projects</h2>
             <p>The following projects have been created and maintained by yours truly.</p>

@@ -929,11 +929,7 @@ var OpenSourceController = function (_React$Component) {
               ),
               '.'
             )
-          )
-        ),
-        _react2.default.createElement(
-          _reactMaterialize.Row,
-          null,
+          ),
           _react2.default.createElement(
             _reactMaterialize.Col,
             { m: 12 },
