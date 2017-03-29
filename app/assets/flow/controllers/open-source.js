@@ -35,13 +35,13 @@ export default class OpenSourceController extends React.Component {
     return (
       <div className="cards open-source">
         <Row>
-          <Col s={12}>
+          <Col m={12}>
             <h1>Open Source Contributions</h1>
             <p>You can find a number of my open source contributions to various projects and organizations, including Facebook, on <a href="https://github.com/aewing">Github</a>.</p>
           </Col>
         </Row>
         <Row>
-          <Col s={12}>
+          <Col m={12}>
             <h2>My Projects</h2>
             <p>The following projects have been created and maintained by yours truly.</p>
           </Col>

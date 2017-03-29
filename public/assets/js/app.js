@@ -912,7 +912,7 @@ var OpenSourceController = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactMaterialize.Col,
-            { s: 12 },
+            { m: 12 },
             _react2.default.createElement(
               'h1',
               null,
@@ -936,7 +936,7 @@ var OpenSourceController = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactMaterialize.Col,
-            { s: 12 },
+            { m: 12 },
             _react2.default.createElement(
               'h2',
               null,
