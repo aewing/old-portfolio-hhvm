@@ -26,8 +26,9 @@ export default class PlaygroundController extends React.Component {
     return (
         <Row>
           <Col l={8} m={12} offset="l2">
-            <h1>Playground</h1>
+            <h1 className="m-t-2">Playground</h1>
             <p>Below you'll find random projects or games that I'm tinkering on right now.</p>
+            <div className="divider"></div>
             <Row>
               {this.state.entries.map((entry,index) => {
                 return (
