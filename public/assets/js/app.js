@@ -362,11 +362,53 @@ var HomepageController = function (_React$Component) {
             _react2.default.createElement(
               'h3',
               null,
-              'Work History'
+              'Recent Work History'
             ),
             _react2.default.createElement(
               _reactMaterialize.Row,
               null,
+              _react2.default.createElement(
+                _reactMaterialize.Col,
+                { s: 12, m: 6, l: 3 },
+                _react2.default.createElement(
+                  _reactMaterialize.Card,
+                  { header: _react2.default.createElement(
+                      _reactMaterialize.CardTitle,
+                      { image: '/img/syngency-heading.png' },
+                      'Syngency'
+                    ) },
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    'About Syngency'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Syngency is a modeling agency management and booking platform designed by industry experts. This is an ongoing contract.'
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    'Duties'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'My duties for Syngency include software development, server administration, database administration, and consultation.'
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    'Stack'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Git, PHP (CodeIgniter -> Laravel), Docker, MySQL, jQuery UI -> React, and Bootstrap.'
+                  )
+                )
+              ),
               _react2.default.createElement(
                 _reactMaterialize.Col,
                 { s: 12, m: 6, l: 3 },
@@ -395,7 +437,7 @@ var HomepageController = function (_React$Component) {
                   _react2.default.createElement(
                     'p',
                     null,
-                    'Frontend and backend development with PHP, SCSS, and JS (Angular). Aided in integration of ElasticSearch.'
+                    'Frontend and backend development with PHP, SCSS, and JS (Angular). Server and database design, administration, and optimization. Championed integration of ElasticSearch, conversion to Docker, upgrade to PHP7 & migration to nginx. Lead development of patented language analysis AI algorithm.'
                   ),
                   _react2.default.createElement(
                     'h4',
@@ -534,6 +576,48 @@ var HomepageController = function (_React$Component) {
                     'Git, HHVM / PHP (Laravel, Hacklang), Bootstrap v4, ElasticSearch, MySQL.'
                   )
                 )
+              ),
+              _react2.default.createElement(
+                _reactMaterialize.Col,
+                { s: 12, m: 6, l: 3 },
+                _react2.default.createElement(
+                  _reactMaterialize.Card,
+                  { header: _react2.default.createElement(
+                      _reactMaterialize.CardTitle,
+                      { image: '/img/maplewood-heading.png' },
+                      'Maplewood Cabinetry'
+                    ) },
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    'About Maplewood Cabinetry'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Maplewood cabinetry is a commercial cabinetry operation specializing in medical and dental casework and legal offices.'
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    'Duties'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Design, development, SEO & analytics, server hosting and administration.'
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    'Stack'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Git, PHP (Laravel: OctoberCMS), Bootstrap, MySQL, XMNR.'
+                  )
+                )
               )
             )
           ),
@@ -612,6 +696,20 @@ var HomepageController = function (_React$Component) {
                     'strong',
                     null,
                     'Heidi Quigley Larke - President - KahPing, LLC'
+                  )
+                ),
+                _react2.default.createElement(
+                  _reactMaterialize.Col,
+                  { m: 6 },
+                  _react2.default.createElement(
+                    'blockquote',
+                    null,
+                    '"Andrew is an incredibly talented engineer. His suggestions are full of insight and knowledge on how things work and how they should work. While working with him, I was truly impressed with the things he accomplished and would definitely recommend him to anyone needing a senior full-stack developer."'
+                  ),
+                  _react2.default.createElement(
+                    'strong',
+                    null,
+                    'Thiago Pereira - iOS Lead - Picmonic Inc.'
                   )
                 )
               )
@@ -812,6 +910,44 @@ var OpenSourceController = function (_React$Component) {
         _react2.default.createElement(
           _reactMaterialize.Row,
           null,
+          _react2.default.createElement(
+            _reactMaterialize.Col,
+            { s: 12 },
+            _react2.default.createElement(
+              'h1',
+              null,
+              'Open Source Contributions'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'You can find a number of my open source contributions to various projects and organizations, including Facebook, on ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/aewing' },
+                'Github'
+              ),
+              '.'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactMaterialize.Row,
+          null,
+          _react2.default.createElement(
+            _reactMaterialize.Col,
+            { s: 12 },
+            _react2.default.createElement(
+              'h2',
+              null,
+              'My Projects'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'The following projects have been created and maintained by yours truly.'
+            )
+          ),
           this.state.entries.map(function (entry, index) {
             return _react2.default.createElement(
               _reactMaterialize.Col,

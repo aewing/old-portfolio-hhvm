@@ -60,14 +60,32 @@ export default class HomepageController extends React.Component {
             </div>
           </Col>
           <Col s={12} className="center-align">
-            <h3>Work History</h3>
+            <h3>Recent Work History</h3>
             <Row>
+              <Col s={12} m={6} l={3}>
+                <Card header={<CardTitle image="/img/syngency-heading.png">Syngency</CardTitle>}>
+                  <h4>About Syngency</h4>
+                  <p>
+                    Syngency is a modeling agency management and booking platform designed by industry experts.
+                    This is an ongoing contract.
+                  </p>
+                  <h4>Duties</h4>
+                  <p>My duties for Syngency include software development, server administration, database administration, and consultation.</p>
+                  <h4>Stack</h4>
+                  <p>Git, PHP (CodeIgniter -> Laravel), Docker, MySQL, jQuery UI -> React, and Bootstrap.</p>
+                </Card>
+              </Col>
               <Col s={12} m={6} l={3}>
                 <Card header={<CardTitle image="/img/picmonic-heading.png">Picmonic</CardTitle>}>
                   <h4>About Picmonic</h4>
                   <p>Picmonic is an audio-visual learning platform designed to aid med and nursing students.</p>
                   <h4>Duties</h4>
-                  <p>Frontend and backend development with PHP, SCSS, and JS (Angular). Aided in integration of ElasticSearch.</p>
+                  <p>
+                    Frontend and backend development with PHP, SCSS, and JS (Angular).
+                    Server and database design, administration, and optimization.
+                    Championed integration of ElasticSearch, conversion to Docker, upgrade to PHP7 & migration to nginx.
+                    Lead development of patented language analysis AI algorithm.
+                  </p>
                   <h4>Stack</h4>
                   <p>Git, PHP (FuelPHP & Laravel), ElasticSearch, Docker, MySQL, Angular, and Bootstrap.</p>
                 </Card>
@@ -100,6 +118,16 @@ export default class HomepageController extends React.Component {
                   <p>Frontend and backend development with Laravel, Bootstrap, jQuery and MySQL, as well as remote management of a small team of mid and senior level engineers, both local and abroad.</p>
                   <h4>Stack</h4>
                   <p>Git, HHVM / PHP (Laravel, Hacklang), Bootstrap v4, ElasticSearch, MySQL.</p>
+                </Card>
+              </Col>
+              <Col s={12} m={6} l={3}>
+                <Card header={<CardTitle image="/img/maplewood-heading.png">Maplewood Cabinetry</CardTitle>}>
+                  <h4>About Maplewood Cabinetry</h4>
+                  <p>Maplewood cabinetry is a commercial cabinetry operation specializing in medical and dental casework and legal offices.</p>
+                  <h4>Duties</h4>
+                  <p>Design, development, SEO & analytics, server hosting and administration.</p>
+                  <h4>Stack</h4>
+                  <p>Git, PHP (Laravel: OctoberCMS), Bootstrap, MySQL, XMNR.</p>
                 </Card>
               </Col>
             </Row>
@@ -148,6 +176,15 @@ export default class HomepageController extends React.Component {
                     I always found Andrew to be thoughtful, thorough, and very professional." -
                   </blockquote>
                   <strong>Heidi Quigley Larke - President - KahPing, LLC</strong>
+                </Col>
+                <Col m={6}>
+                  <blockquote>
+                    "Andrew is an incredibly talented engineer.
+                    His suggestions are full of insight and knowledge on how things work and how they should work.
+                    While working with him, I was truly impressed with the things he accomplished
+                    and would definitely recommend him to anyone needing a senior full-stack developer."
+                  </blockquote>
+                  <strong>Thiago Pereira - iOS Lead - Picmonic Inc.</strong>
                 </Col>
               </Row>
             </div>
