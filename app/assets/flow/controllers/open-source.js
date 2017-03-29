@@ -40,10 +40,10 @@ export default class OpenSourceController extends React.Component {
               <Col m={12}>
                 <h1 className="m-t-3">Open Source Contributions</h1>
                 <p>You can find a number of my open source contributions to various projects and organizations, including Facebook, on <a href="https://github.com/aewing">Github</a>.</p>
-                <hr/>
+                <div className="divider"></div>
               </Col>
               <Col m={12}>
-                <h2 className="m-t-2">Open Source Projects</h2>
+                <h2 className="m-t-3">Open Source Projects</h2>
                 <p>The following projects have been created and maintained by yours truly.</p>
               </Col>
               <div className="cards">
