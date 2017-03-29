@@ -534,7 +534,11 @@ var HomepageController = function (_React$Component) {
                     'The primary stack for PHENOCode projects was a LEMP environment focusing on Laravel and React.'
                   )
                 )
-              ),
+              )
+            ),
+            _react2.default.createElement(
+              _reactMaterialize.Row,
+              null,
               _react2.default.createElement(
                 _reactMaterialize.Col,
                 { s: 12, m: 6, l: 3 },

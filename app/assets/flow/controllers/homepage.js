@@ -110,6 +110,8 @@ export default class HomepageController extends React.Component {
                   <p>The primary stack for PHENOCode projects was a LEMP environment focusing on Laravel and React.</p>
                 </Card>
               </Col>
+            </Row>
+            <Row>
               <Col s={12} m={6} l={3}>
                 <Card header={<CardTitle image="/img/kahping-heading.png">KahPing</CardTitle>}>
                   <h4>About KahPing</h4>
