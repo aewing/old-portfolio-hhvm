@@ -36,7 +36,7 @@ export default class HomepageController extends React.Component {
         </div>
         <Row className="homepage__cv">
           <h3 className="center-align">About Me</h3>
-          <Col s={8} offset="s2" className="left-align" style={{backgroundColor:'#fff',boxShadow:'1px 2px 2px rgba(0, 0, 0, 0.25)'}}>
+          <Col s={12} m={8} offset="m2" className="left-align" style={{backgroundColor:'#fff',boxShadow:'1px 2px 2px rgba(0, 0, 0, 0.25)'}}>
             <div className="m-a-1">
               <h4>Background</h4>
               <p>

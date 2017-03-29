@@ -310,7 +310,7 @@ var HomepageController = function (_React$Component) {
           ),
           _react2.default.createElement(
             _reactMaterialize.Col,
-            { s: 8, offset: 's2', className: 'left-align', style: { backgroundColor: '#fff', boxShadow: '1px 2px 2px rgba(0, 0, 0, 0.25)' } },
+            { s: 12, m: 8, offset: 'm2', className: 'left-align', style: { backgroundColor: '#fff', boxShadow: '1px 2px 2px rgba(0, 0, 0, 0.25)' } },
             _react2.default.createElement(
               'div',
               { className: 'm-a-1' },
