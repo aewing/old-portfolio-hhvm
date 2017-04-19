@@ -971,8 +971,8 @@ var OpenSourceController = function (_React$Component) {
                           entry.title
                         ),
                         actions: [_react2.default.createElement(
-                          _reactRouter.Link,
-                          { className: 'btn btn--full waves-effect waves-light black', to: entry.href, key: 'view' },
+                          'a',
+                          { className: 'btn btn--full waves-effect waves-light black', href: entry.href, key: 'view' },
                           _react2.default.createElement('i', { className: 'fa fa-github-circle' }),
                           ' View on GitHub'
                         )] },

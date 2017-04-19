@@ -52,7 +52,7 @@ export default class OpenSourceController extends React.Component {
                     <Col m={6} s={12} key={index}>
                       <Card
                         header={<CardTitle image={entry.image}>{entry.title}</CardTitle>}
-                        actions={[<Link className="btn btn--full waves-effect waves-light black" to={entry.href} key="view"><i className="fa fa-github-circle"></i> View on GitHub</Link>]}>
+                        actions={[<a className="btn btn--full waves-effect waves-light black" href={entry.href} key="view"><i className="fa fa-github-circle"></i> View on GitHub</a>]}>
                         <div className="m-b-1">
                           {entry.description}
                         </div>
